@@ -15,6 +15,14 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .link-button {
     background-image: linear-gradient(orange, red);
     text-decoration: none;
@@ -41,7 +49,7 @@ h1 {
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -49,3 +57,31 @@ section {
 .second-section {
     background-image: url(images/shapes/Frame\ 57.jpg);
 }
+
+.recipie-area {
+    text-align: center;
+}
+
+.recipies {
+    margin-top: 40px;
+}
+
+.recipie-title {
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+
+}
+
+.half-width-recipie {
+    width: 50%;
+
+}
+
+.half-width-recipie img {
+    width: 80%;
+    height: auto;
